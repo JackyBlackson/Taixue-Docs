@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-01T12:41:08.841Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.64" etag="zJfyYjBlJC4cVEYo-kOU" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-01T12:45:05.864Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.64" etag="a0S_pQUXXhc73nITaJzr" version="21.1.8" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1595" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -139,19 +139,25 @@
           <mxGeometry x="220" y="746" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="P64CyAMdBsDBxUxvl0Af-32" value="Bungee-Server" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="900" y="436" width="240" height="130" as="geometry" />
+          <mxGeometry x="900" y="390" width="240" height="198" as="geometry" />
         </mxCell>
         <mxCell id="P64CyAMdBsDBxUxvl0Af-33" value="BungeeOnlineMode = false;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P64CyAMdBsDBxUxvl0Af-32">
           <mxGeometry y="26" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="P64CyAMdBsDBxUxvl0Af-34" value="other functional plugins" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P64CyAMdBsDBxUxvl0Af-32">
+        <mxCell id="P64CyAMdBsDBxUxvl0Af-72" value="Use AUTBLIB-INJECTOR.jar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P64CyAMdBsDBxUxvl0Af-32">
           <mxGeometry y="52" width="240" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="P64CyAMdBsDBxUxvl0Af-73" value="-javaagent:authlib-injector.jar=&lt;br&gt;https://skin.taixue.cc/api/yggdrasil" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P64CyAMdBsDBxUxvl0Af-32">
+          <mxGeometry y="78" width="240" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="P64CyAMdBsDBxUxvl0Af-34" value="other functional plugins" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P64CyAMdBsDBxUxvl0Af-32">
+          <mxGeometry y="120" width="240" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="P64CyAMdBsDBxUxvl0Af-66" value="No geyser or multilogin plugin" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P64CyAMdBsDBxUxvl0Af-32">
-          <mxGeometry y="78" width="240" height="26" as="geometry" />
+          <mxGeometry y="146" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="P64CyAMdBsDBxUxvl0Af-35" value="hide address &amp;amp; port" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P64CyAMdBsDBxUxvl0Af-32">
-          <mxGeometry y="104" width="240" height="26" as="geometry" />
+          <mxGeometry y="172" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="P64CyAMdBsDBxUxvl0Af-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="P64CyAMdBsDBxUxvl0Af-19" target="P64CyAMdBsDBxUxvl0Af-34">
           <mxGeometry relative="1" as="geometry" />
@@ -162,34 +168,46 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="P64CyAMdBsDBxUxvl0Af-40" value="BukkitServer-Architecture" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1260" y="336" width="240" height="150" as="geometry" />
+          <mxGeometry x="1260" y="220" width="240" height="218" as="geometry" />
         </mxCell>
         <mxCell id="P64CyAMdBsDBxUxvl0Af-41" value="OnlineMode = false" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="P64CyAMdBsDBxUxvl0Af-40">
           <mxGeometry y="30" width="240" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="P64CyAMdBsDBxUxvl0Af-74" value="Use AUTBLIB-INJECTOR.jar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P64CyAMdBsDBxUxvl0Af-40">
+          <mxGeometry y="60" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="P64CyAMdBsDBxUxvl0Af-75" value="-javaagent:authlib-injector.jar=&lt;br&gt;https://skin.taixue.cc/api/yggdrasil" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P64CyAMdBsDBxUxvl0Af-40">
+          <mxGeometry y="86" width="240" height="42" as="geometry" />
+        </mxCell>
         <mxCell id="P64CyAMdBsDBxUxvl0Af-42" value="Bukkit plugins" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="P64CyAMdBsDBxUxvl0Af-40">
-          <mxGeometry y="60" width="240" height="30" as="geometry" />
+          <mxGeometry y="128" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P64CyAMdBsDBxUxvl0Af-43" value="Need no skin plugins" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="P64CyAMdBsDBxUxvl0Af-40">
-          <mxGeometry y="90" width="240" height="30" as="geometry" />
+          <mxGeometry y="158" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P64CyAMdBsDBxUxvl0Af-57" value="Need no auth plugins" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="P64CyAMdBsDBxUxvl0Af-40">
-          <mxGeometry y="120" width="240" height="30" as="geometry" />
+          <mxGeometry y="188" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P64CyAMdBsDBxUxvl0Af-44" value="BukkitServer-Relaxation" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1260" y="506" width="240" height="150" as="geometry" />
+          <mxGeometry x="1260" y="506" width="240" height="218" as="geometry" />
         </mxCell>
         <mxCell id="P64CyAMdBsDBxUxvl0Af-45" value="OnlineMode = false" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="P64CyAMdBsDBxUxvl0Af-44">
           <mxGeometry y="30" width="240" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="P64CyAMdBsDBxUxvl0Af-77" value="-javaagent:authlib-injector.jar=&lt;br&gt;https://skin.taixue.cc/api/yggdrasil" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P64CyAMdBsDBxUxvl0Af-44">
+          <mxGeometry y="60" width="240" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="P64CyAMdBsDBxUxvl0Af-76" value="Use AUTBLIB-INJECTOR.jar" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P64CyAMdBsDBxUxvl0Af-44">
+          <mxGeometry y="102" width="240" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="P64CyAMdBsDBxUxvl0Af-46" value="Bukkit plugins" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="P64CyAMdBsDBxUxvl0Af-44">
-          <mxGeometry y="60" width="240" height="30" as="geometry" />
+          <mxGeometry y="128" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P64CyAMdBsDBxUxvl0Af-47" value="Need no skin plugins" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="P64CyAMdBsDBxUxvl0Af-44">
-          <mxGeometry y="90" width="240" height="30" as="geometry" />
+          <mxGeometry y="158" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P64CyAMdBsDBxUxvl0Af-56" value="Need no auth plugins" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="P64CyAMdBsDBxUxvl0Af-44">
-          <mxGeometry y="120" width="240" height="30" as="geometry" />
+          <mxGeometry y="188" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P64CyAMdBsDBxUxvl0Af-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="P64CyAMdBsDBxUxvl0Af-34" target="P64CyAMdBsDBxUxvl0Af-42">
           <mxGeometry relative="1" as="geometry" />
